@@ -1,0 +1,10 @@
+
+@date 2017-10-15
+@version 0.1
+- 基于测试程序创建工程camannex, 作为GWAC系统定制相机控制软件的附属软件
+- 每台运行camannex的计算机监测两台温控、两台真空信息
+- 实时监测数据发送给gtoaes服务器, 由gtoaes分发给相机和数据库
+- camannex维护三条串口连接: 串口1连接2台温控; 串口2和3分别连接1台真空
+- camannex维护与gtoaes之间的TCP连接
+- camannex记录日志
+- camannex配置文件默认禁用时钟修正(因其与camagent在同一控制机)

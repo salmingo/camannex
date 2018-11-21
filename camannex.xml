@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<version>0.1</version>
+<Description>settings of annex of GWAC-GY camera</Description>
+<date>20171024T020417</date>
+<Server IP="172.28.1.11" Port="4016"/>
+<Cooler>
+    <PortName>/dev/ttyS0</PortName>
+    <Number>2</Number>
+    <ID_1>1</ID_1>
+    <ID_2>2</ID_2>
+</Cooler>
+<Vacuum>
+    <PortName>/dev/ttyS1</PortName>
+    <Number>1</Number>
+    <ID_1>1</ID_1>
+</Vacuum>
+<Vacuum>
+    <PortName>/dev/ttyS2</PortName>
+    <Number>1</Number>
+    <ID_1>1</ID_1>
+</Vacuum>
+<NTP>
+    <Enable>false</Enable>
+    <IP>172.28.1.3</IP>
+    <MaximumDifference>5</MaximumDifference>
+</NTP>
