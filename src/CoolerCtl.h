@@ -20,8 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////
 /* 数据类型 -- 温控 */
 enum CoolerFuncID {// 温控功能编码
-	CFID_READ_VOL = 0x21,		//< 读工作电压
-	CFID_READ_CUR = 0x22,		//< 读工作电流
+	CFID_READ_CUR = 0x21,		//< 读工作电流
+	CFID_READ_VOL = 0x22,		//< 读工作电压
 	CFID_READ_T1  = 0x23,		//< 读冷端温度, 即探测器温度
 	CFID_READ_T2  = 0x24,		//< 读热端温度
 	CFID_READ_COOLSET  = 0x15,	//< 读制冷温度
